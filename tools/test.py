@@ -6,7 +6,6 @@ import os.path as osp
 from mmengine.config import Config, DictAction
 from mmengine.runner import Runner
 
-
 # TODO: support fuse_conv_bn, visualization, and format_only
 def parse_args():
     parser = argparse.ArgumentParser(

@@ -1,7 +1,7 @@
 
 # dataset settings 
 dataset_type = 'CrackDatasetBinary' 
-data_root = 'data/CFD' # Sylvie_dataset 
+data_root = 'D:/mmsegmentation/data/CFD' # Sylvie_dataset 
 crop_size = (256, 256)
 train_pipeline = [
     dict(type='LoadImageFromFile'),

@@ -10,8 +10,6 @@ model = dict(
     data_preprocessor=data_preprocessor,
     backbone=dict(
         drop_path_rate=0.1,
-        in_channels=64,
-        output_stride=16,
         # init_cfg=None
         init_cfg=dict(
             type='Pretrained', checkpoint=checkpoint_file,
