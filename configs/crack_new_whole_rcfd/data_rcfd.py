@@ -1,7 +1,7 @@
 
 # dataset settings 
 dataset_type = 'CrackDatasetBinary'
-data_root = 'D:/mmsegmentation/data/hardRCD'
+data_root = 'data/hardRCD'
 crop_size = (256, 256)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
