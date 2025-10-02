@@ -11,8 +11,6 @@ from mmengine.runner import Runner
 def parse_args():
     parser = argparse.ArgumentParser(
         description='MMSeg test (and eval) a model')
-    # parser.add_argument('--config', default= "./configs/crack_new_whole_sylvie/convnext_caafr_AdamW_0.0001_0.0005dec_3000warm_AFR_CAM_LAST.py",help='train config file path')
-    # parser.add_argument('--checkpoint', default= "E:/CFD_crack/crackrefine_adamW_0.001_0.0001dec_3000warm_ref/best_mIoU_iter_4500.pth",help='checkpoint file')
     parser.add_argument('config', help='train config file path')
     parser.add_argument('checkpoint', help='checkpoint file')
     parser.add_argument(

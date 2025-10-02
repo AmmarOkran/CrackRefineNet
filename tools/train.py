@@ -14,11 +14,7 @@ from mmseg.registry import RUNNERS
 # stweak_unet_AdamW_0.0001_0.0005dec_3000warm_sylvie_scale.py
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
-    # parser.add_argument('--config', default="./configs/crack_whole_scene/dual_unet_convnext_AdamW_0.0001_0.0005dec_3000warm_wholescene.py", help='train config file path')
-    # parser.add_argument('--config', default="./configs/crack_models/manet_resnet_cracks_Adam_0.0001_0.0005dec_3000warm.py", help='train config file path')
-    parser.add_argument('--config', default="./configs/crack_MDAE/unet_convnext_cracks_AdamW_0.0001_0.0005dec_3000warm_correct.py", help='train config file path')
-    # parser.add_argument('--config', default="./configs/annotator_ISIC_bboxes/unet_resnet_50_cracks_AdamW_0.0001_0.0005dec_5000warm.py", help='train config file path')
-    # parser.add_argument('config', help='/train config file path')
+    parser.add_argument('config', help='/train config file path')
     parser.add_argument('--work-dir', help='the dir to save logs and models')
     parser.add_argument(
         '--resume',
