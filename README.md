@@ -74,7 +74,7 @@ python ./tools/train.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convn
 Before testing, choose config file path configs/crack_new_whole_(RCFD, CFD, or crack500) and its checkpoint. 
 ```
 cd CrackRefineNet
-python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convnext_crackrefineNet.py ./checkpoints\best_(RCFD, CFD, or Crack500).pth 
+python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convnext_crackrefineNet.py ./checkpoints/best_(RCFD, CFD, or Crack500).pth 
 ```
 ## Acknowledgements
 
