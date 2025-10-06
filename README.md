@@ -37,7 +37,7 @@ mkdir data
 ## Pretrained Weights
 You can download the **pretrained weights** of our proposed CrackRefineNet model from the table below.  
 After downloading, place each checkpoint file inside the **`/checkpoints`** directory located in the root of this repository.  
-If the folder does not exist, create it manually using:
+If the folder does not exist, create it using:
 
 ```bash
 mkdir checkpoints
