@@ -66,6 +66,19 @@ cd CrackRefineNet
 python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convnext_crackrefineNet.py ./checkpoints/crackrefinenet_(RCFD, CFD, or Crack500).pth 
 ```
 
+## Citation
+```
+If you use this work or part of CrackRefineNet in your research, please cite:
+@article{Okran2025CrackRefineNet,
+  title   = {CrackRefineNet: A Context- and Refinement-Driven Convolutional Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions},
+  author  = {},
+  journal = {},
+  year    = {}
+}
+```
 ## Acknowledgements
 
 This project is built upon **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)**. We thank the open-source community for enabling high-quality research and development in semantic segmentation.
+
+## License  
+This project is released under the [Apache 2.0 license](LICENSE).
