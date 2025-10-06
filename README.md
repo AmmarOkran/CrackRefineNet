@@ -57,3 +57,4 @@ The dataset can be downloaded from [this](https://github.com/fyangneil/pavement-
 ## Acknowledgements
 
 This project is built upon **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)**
+We thank the open-source community for enabling high-quality research and development in semantic segmentation.
