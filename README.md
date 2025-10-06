@@ -52,6 +52,13 @@ The dataset can be downloaded from [this](https://github.com/fyangneil/pavement-
 ```
 ### 4. Sylvie dataset
 
+## Pretrained Weights
+| Dataset  | Checkpoint File               | Download Link                                                         |
+| -------- | ----------------------------- | --------------------------------------------------------------------- |
+| RCFD     | `crackrefinenet_rcfd.pth`     | [Google Drive](https://drive.google.com/file/d/1p2KSbGwrH6LdBhFh92eUEbPgshkP-CXt/view?usp=drive_link) |
+| CFD      | `crackrefinenet_cfd.pth`      | [Google Drive](https://drive.google.com/file/d/1gjXX9tE6y2I8udP8SKZmjd419NXPx9IK/view?usp=drive_link) |
+| Crack500 | `crackrefinenet_crack500.pth` | [Google Drive](https://drive.google.com/file/d/1hhGWZ-6jt9Drpjacs01ZAK9SqJyT3wFF/view?usp=drive_link) |
+| Sylvie   | `Same file of CFD`            | [Google Drive](https://drive.google.com/file/d/1gjXX9tE6y2I8udP8SKZmjd419NXPx9IK/view?usp=drive_link) |
 
 
 ## Acknowledgements
