@@ -13,12 +13,14 @@ CrackRefineNet is implemented using **[MMSegmentation v1.1.1](https://github.com
 </p>
 
 ## Installation
+
 We use **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)** as the codebase.
 
 For install and data preparation, please find the guidelines in **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)** for the installation and data preparation.
 
 
 ## Datasets
+
 You can download the **preprocessed datasets** used in our experiments from the table below.  
 Once downloaded, place each dataset inside the **`/data`** folder located in the root directory of this repository.  
 If the folder does not exist, simply create it using:
@@ -26,6 +28,7 @@ If the folder does not exist, simply create it using:
 ```bash
 mkdir data
 ```
+
 | Dataset  | Download Link                                                         |
 | -------- | --------------------------------------------------------------------- |
 | RCFD     | [Google Drive](https://drive.google.com/drive/folders/153GLBwBFaxcGSxkijpqYH_umJuubvXmU?usp=sharing) |
@@ -35,6 +38,7 @@ mkdir data
 
 
 ## Pretrained Weights
+
 You can download the **pretrained weights** of our proposed CrackRefineNet model from the table below.  
 After downloading, place each checkpoint file inside the **`/checkpoints`** directory located in the root of this repository.  
 If the folder does not exist, create it using:
@@ -42,6 +46,7 @@ If the folder does not exist, create it using:
 ```bash
 mkdir checkpoints
 ```
+
 | Dataset  | Checkpoint File               | Download Link                                                         |
 | -------- | ----------------------------- | --------------------------------------------------------------------- |
 | RCFD     | `crackrefinenet_rcfd.pth`     | [Google Drive](https://drive.google.com/file/d/1p2KSbGwrH6LdBhFh92eUEbPgshkP-CXt/view?usp=sharing) |
@@ -53,6 +58,7 @@ mkdir checkpoints
 ## Training and Evaluation
 
 **Training**
+
 Before training, change variables such as dataset path, batch size, etc in configs/crack_new_whole_(RCFD, CFD, or crack500). 
 ```
 cd CrackRefineNet
@@ -60,6 +66,7 @@ python ./tools/train.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convn
 ```
 
 **Testing**
+
 Before testing, choose config file path configs/crack_new_whole_(RCFD, CFD, or crack500) and its checkpoint. 
 ```
 cd CrackRefineNet
@@ -67,8 +74,10 @@ python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convne
 ```
 
 ## Citation
-```
+
 If you use this work or part of CrackRefineNet in your research, please cite:
+
+```bibtex
 @article{Okran2025CrackRefineNet,
   title   = {CrackRefineNet: A Context- and Refinement-Driven Convolutional Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions},
   author  = {},
