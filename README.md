@@ -61,6 +61,21 @@ The dataset can be downloaded from [this](https://github.com/fyangneil/pavement-
 | Sylvie   | `Same file of CFD (Zero-Shot)`            | [Google Drive](https://drive.google.com/file/d/1gjXX9tE6y2I8udP8SKZmjd419NXPx9IK/view?usp=sharing) |
 
 
+## Training and Evaluation
+
+**Training**
+Before training, change variables such as dataset path, batch size, etc in configs/crack_new_whole_(RCFD, CFD, or crack500). 
+```
+cd CrackRefineNet
+python ./tools/train.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convnext_crackrefineNet.py 
+```
+
+**Testing**
+Before testing, choose config file path configs/crack_new_whole_(RCFD, CFD, or crack500) and its checkpoint. 
+```
+cd CrackRefineNet
+python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convnext_crackrefineNet.py ./checkpoints\best_(RCFD, CFD, or Crack500).pth 
+```
 ## Acknowledgements
 
 This project is built upon **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)**. We thank the open-source community for enabling high-quality research and development in semantic segmentation.
