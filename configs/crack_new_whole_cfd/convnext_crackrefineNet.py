@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/models/upernet_convnext.py', './data_cfd.py',
+    '../_base_/models/upernet_convnext.py', './data_sylvie.py', # data_cfd data_sylvie
     '../_base_/default_runtime.py', '../_base_/schedules/schedule_20k.py'
 ]
 checkpoint_file = 'https://download.openmmlab.com/mmclassification/v0/convnext/downstream/convnext-base_3rdparty_in21k_20220301-262fd037.pth'

@@ -1,7 +1,7 @@
 
 # dataset settings 
 dataset_type = 'CrackDatasetBinary' 
-data_root = 'data/Sylvie_dataset' # Sylvie_dataset 
+data_root = 'data/Sylvie' # Sylvie
 crop_size = (256, 256)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
