@@ -1,6 +1,6 @@
 <div align="center">
 <h1>CrackRefineNet</h1>
-<h3>CrackRefineNet: A Context- and Refinement-Driven Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions</h3>
+<h3>Context- and Refinement-Driven Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions</h3>
 </div>
 
 This repository provides the official implementation of Context- and refinement-driven convolutional architecture for **robust crack segmentation** under various conditions.  
