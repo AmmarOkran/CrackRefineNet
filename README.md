@@ -78,11 +78,14 @@ python ./tools/test.py ./configs/crack_new_whole_(RCFD, CFD, or crack500)/convne
 If you use this work or part of CrackRefineNet in your research, please cite:
 
 ```bibtex
-@article{Okran2025CrackRefineNet,
-  title   = {CrackRefineNet: A Context- and Refinement-Driven Convolutional Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions},
-  author  = {},
-  journal = {},
-  year    = {}
+@article{okran2026context,
+  title={Context-and refinement-driven convolutional architecture for robust crack segmentation under real-world and zero-shot conditions},
+  author={Okran, Ammar M and Puig, Domenec and Musluh, Saif Khalid and Chambon, Sylvie and Rashwan, Hatem A},
+  journal={Automation in Construction},
+  volume={181},
+  pages={106635},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 ## Acknowledgements
