@@ -3,8 +3,10 @@
 <h3>CrackRefineNet: A Context- and Refinement-Driven Architecture for Robust Crack Segmentation under Real-World and Zero-Shot Conditions</h3>
 </div>
 
-This repository provides the official implementation of **CrackRefineNet**, a context- and refinement-driven convolutional architecture for **robust crack segmentation** under various conditions.  
+This repository provides the official implementation of Context- and refinement-driven convolutional architecture for **robust crack segmentation** under various conditions.  
 CrackRefineNet is implemented using **[MMSegmentation v1.1.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.1)** as the core framework.
+
+📄 Paper: CrackRefineNet: **[Paper] (https://www.sciencedirect.com/science/article/pii/S0926580525006752?via%3Dihub)**
 
 ## Network Architecture
 
